@@ -1,0 +1,19 @@
+{
+  "name": "date-delta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "delta.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orhantoy-test/date-delta.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
