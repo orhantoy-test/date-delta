@@ -10,7 +10,7 @@ test("calculates days between dates in same month", () => {
 
 /*
 
-TODO: Calculate the following blocks into individual Jest tests.
+TODO: Convert the following blocks into individual Jest tests.
 
 {
   const from = { year: 2020, month: 1, day: 20 };
