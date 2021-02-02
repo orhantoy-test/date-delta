@@ -22,12 +22,9 @@ const isLeapYear = (year) => {
 
 const year2days = (date) => {
   let totalDays = 0;
-
-  // for (let year = 0; year <= date.year; year++) {
-  //   totalDays += isLeapYear(year) ? 366 : 365;
-  // }
-  totalDays = date.year * 365;
-
+  for (let year = 0; year < date.year; year++) {
+    totalDays += isLeapYear(year) ? 366 : 365;
+  }
   return totalDays;
 };
 
