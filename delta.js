@@ -36,7 +36,7 @@ const daysBetween = (from, to) => {
   return daysTo - daysFrom;
 };
 
-module.exports = { daysBetween };
+module.exports = { daysBetween, isLeapYear };
 
 const monthsForSpecificYear = (year) => {
   if (isLeapYear(year)) {
